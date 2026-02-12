@@ -4,6 +4,11 @@ This repository presents a physics-motivated machine learning study for event cl
 The analysis emphasizes interpretability, robustness, and physics-aware evaluation rather than black-box optimization.
 
 ---
+## Technical Research Report
+
+A formal technical research report documenting the full physics-driven machine learning analysis, methodology, and results is available below:
+
+[Download PDF Report](report/Technical_Research_Report.pdf)
 
 ## Project Motivation
 
