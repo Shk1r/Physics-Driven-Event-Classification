@@ -60,6 +60,16 @@ The workflow follows a structured, research-oriented pipeline:
 
 ---
 
+### Dataset
+
+This study uses the "Particle Physics Event Classification Dataset" available on Kaggle:
+
+[https://www.kaggle.com/...](https://www.kaggle.com/datasets/younusmohamed/particle-physics-event-classification-dataset)
+
+The dataset contains 250,001 collider-inspired events labeled as signal or background, with per-event weights used in physics-driven evaluation.
+
+---
+
 ### Preprocessing/
 
 #### **data_preprocessing.py**
