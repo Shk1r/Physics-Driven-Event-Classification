@@ -13,7 +13,8 @@ A formal technical research report documenting the full physics-driven machine l
 ## Project Motivation
 
 In high-energy physics analyses, classification performance is often constrained by the structure of the available observables rather than by model complexity.  
-This project investigates whether dominant variance directions correspond to discriminative power, and whether nonlinear models provide meaningful improvements over linear baselines.
+This project challenges a common implicit assumption in data-driven analyses:
+that directions of large variance necessarily carry discriminative information. We systematically investigate the relationship between variance structure, linear separability, and nonlinear decision boundaries in a physics context.
 
 ---
 
@@ -98,8 +99,18 @@ The dataset contains 250,001 collider-inspired events labeled as signal or backg
 
 ---
 
+## Limitations and Future Work
+
+- The study is limited to a specific dataset and feature representation; results may not generalize to higher-dimensional or more complex observables.
+
+- Only classical ML models are considered; future work may explore physics-informed neural networks or representation learning.
+
+- The relationship between detector effects and feature separability is not explicitly modeled.
+
+---
+
 ## Scope
 
-This project is intended as a research-oriented study suitable for graduate-level applications in particle physics and machine learning.  
-It prioritizes physical insight and methodological clarity over benchmark-driven performance.
+This project is intended as a research-oriented study suitable for graduate-level research in particle physics and machine learning. It prioritizes physical insight and methodological clarity over benchmark-driven performance. The scope is intentionally focused on interpretable models and controlled analysis, rather than large-scale optimization or complex model architectures.
 
+Future work will extend this study to include more advanced machine learning methods and richer model classes.
